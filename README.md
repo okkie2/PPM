@@ -24,9 +24,10 @@ This project provides a dynamic and user-friendly self-evaluation tool for produ
 
 ## Setup and Usage
 ### Prerequisites
-- Access to the Google Sheet with the questionnaire.
-- Google Apps Script setup to run the provided script.
-- "Formbuilder Plus" plugin from Jivrus for form creation.
+- Access to the Google Sheet with the source questions.
+- Google Apps Script to run the provided script.
+- "Formbuilder Plus" plugin from Jivrus to import Google Sheet questions into Google Forms.
+- Typeform account to import Google Form questions.
 
 ### Installation
 1. Clone the repository to your local machine.
