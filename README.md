@@ -1,44 +1,51 @@
-
 # Self-Evaluation Form for Product Managers
 
-### Overview
-This project is designed to assist product managers in assessing their competencies across 12 key areas. Using a Typeform self-evaluation form, product managers can gain insights into their strengths and weaknesses, aiding in their professional development and project alignment.
-### Features
-* **Self-Evaluation Form**: A comprehensive form created in Typeform covering 12 product management competencies.
-* **Automated Data Processing**: Utilizes Google Apps Script to process form submissions and store results in a Google Sheet.
-* **Individual Competency Reports**: Generates personalized reports for each participant, highlighting their competency levels.
+## Overview
+This project provides a dynamic and user-friendly self-evaluation tool for product managers, focusing on 12 key competencies. It leverages the flexibility of Typeform for an adaptive questionnaire experience and employs Google Sheets and Google Apps Script for data management and report generation.
 
-### How It Works
-1. **Form Submission**: Product managers complete the self-evaluation form on Typeform.
-2. **Data Handling**: Upon form submission, the script processes the responses, storing them in a Google Sheet.
-3. **Report Generation**: For each submission, a tailored report is created, showcasing the individual's competency profile.
+## Features
+- **Dynamic Self-Evaluation Form**: Utilizes Typeform to present a tailored set of questions based on previous responses, reducing the need to answer all 84 questions.
+- **Automated Data Processing**: Google Apps Script processes responses from Typeform, storing results in a Google Sheet.
+- **Personalized Competency Reports**: Generates individual reports highlighting each product manager's competency levels.
 
-### Technical Details
-The core functionality of this project is driven by Google Apps Script, which automates the processing of form submissions. The script:
-* Extracts and processes data from the Google Sheet.
-* Calculates competency levels based on the responses.
-* Generates a personalized report with a radar chart visualizing the competencies.
+## Workflow
+1. **Questionnaire Setup**: 
+   - A comprehensive list of 84 questions is maintained in a Google Sheet.
+   - The Google Sheet is imported into Google Forms using the "Formbuilder Plus" plugin from Jivrus.
+   - Questions are then exported from Google Forms to Typeform.
+2. **Form Submission**: Product managers complete the adaptive self-evaluation form on Typeform.
+3. **Data Handling and Report Generation**: 
+   - The script processes the responses from Typeform, storing them in a Google Sheet.
+   - Individual reports are generated for each submission, showcasing the competency profile.
 
-### Setup and Usage
-**Prerequisites**
-* Access to the Google Sheet linked with the Typeform.
-* Google Apps Script setup to run the provided script.
+## Technical Details
+- The project uses Google Apps Script for automating data processing tasks.
+- Integration between Google Sheets, Google Forms, and Typeform is crucial for the workflow.
 
-**Installation**
+## Setup and Usage
+### Prerequisites
+- Access to the Google Sheet with the questionnaire.
+- Google Apps Script setup to run the provided script.
+- "Formbuilder Plus" plugin from Jivrus for form creation.
+
+### Installation
 1. Clone the repository to your local machine.
-2. Set up the Typeform self-evaluation form and link it to a Google Sheet.
-3. Copy the Google Apps Script code into the script editor of the Google Sheet.
+2. Set up the questionnaire in Google Sheets and use "Formbuilder Plus" to import it into Google Forms.
+3. Export the questions from Google Forms to Typeform.
+4. Link Typeform to a Google Sheet for response collection.
+5. Implement the Google Apps Script in the Google Sheet script editor.
 
-**Running the Script**
-* The script runs automatically upon form submission, processing the data and generating the report.
+### Running the Script
+- The script triggers automatically upon form submission in Typeform, processing the data and generating the report.
 
-### Contributing
-Contributions to enhance the functionality or improve the script are welcome. Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests.
-### License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
-### Contact
-For any queries or further assistance, please contact:
-* Joost Okkinga
-* Eerste Helmersstraat 240, 1054ER, Amsterdam
-* Email: [joost.okkinga@gmail.com](mailto:joost.okkinga@gmail.com)
-* Phone: 06 51566504
+## Contributing
+We welcome contributions to enhance functionality or improve the script. Please see `CONTRIBUTING.md` for contribution guidelines.
+
+## License
+This project is licensed under the MIT License - see `LICENSE.md` for details.
+
+## Contact
+- Joost Okkinga
+- Eerste Helmersstraat 240, 1054ER, Amsterdam
+- Email: joost.okkinga@gmail.com
+- Phone: 06 51566504
