@@ -42,7 +42,7 @@ This project provides a dynamic and user-friendly self-evaluation tool for produ
 We welcome contributions to enhance functionality or improve the script. Please see `CONTRIBUTING.md` for contribution guidelines.
 
 ## License
-This project is licensed under the MIT License - see `LICENSE.md` for details.
+This project is licensed under the Apache 2.0 License - see `LICENSE.md` for details.
 
 ## Contact
 - Joost Okkinga
