@@ -11,7 +11,7 @@ This project provides a dynamic and user-friendly self-evaluation tool for produ
 ## Workflow
 1. **Questionnaire Setup**: 
    - A comprehensive list of 84 questions is maintained in a Google Sheet.
-   - The Google Sheet is imported into Google Forms using the "Formbuilder Plus" plugin from Jivrus.
+   - The Google Sheet is imported into Google Forms using the "Formbuilder Plus" plugin from Jivrus (https://www.jivrus.com/products).
    - Questions are then exported from Google Forms to Typeform.
 2. **Form Submission**: Product managers complete the adaptive self-evaluation form on Typeform.
 3. **Data Handling and Report Generation**: 
