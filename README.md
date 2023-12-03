@@ -25,9 +25,9 @@ The core functionality of this project is driven by Google Apps Script, which au
 * Google Apps Script setup to run the provided script.
 
 **Installation**
-1 Clone the repository to your local machine.
-2 Set up the Typeform self-evaluation form and link it to a Google Sheet.
-3 Copy the Google Apps Script code into the script editor of the Google Sheet.
+1. Clone the repository to your local machine.
+2. Set up the Typeform self-evaluation form and link it to a Google Sheet.
+3. Copy the Google Apps Script code into the script editor of the Google Sheet.
 
 **Running the Script**
 * The script runs automatically upon form submission, processing the data and generating the report.
