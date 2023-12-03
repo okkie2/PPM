@@ -4,7 +4,7 @@
 This project provides a dynamic and user-friendly self-evaluation tool for product managers, focusing on 12 key competencies. It leverages the flexibility of Typeform for an adaptive questionnaire experience and employs Google Sheets and Google Apps Script for data management and report generation.
 
 ## Features
-- **Dynamic Self-Evaluation Form**: Utilizes Typeform to present a tailored set of questions based on previous responses, reducing the need to answer all 84 questions.
+- **Dynamic Self-Evaluation Form**: Utilizes Typeform (www.typeform.com) to present a tailored set of questions based on previous responses, reducing the need to answer all 84 questions.
 - **Automated Data Processing**: Google Apps Script processes responses from Typeform, storing results in a Google Sheet.
 - **Personalized Competency Reports**: Generates individual reports highlighting each product manager's competency levels.
 
